@@ -1,0 +1,38 @@
+
+.container
+{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap:20px;
+    margin-left:400px;
+    margin-right: 400px;
+}
+.pro
+{
+    background-color: lightblue;
+    border-radius: 10px;
+    border: 2px solid;
+    padding:30px;
+    text-align: center;
+}
+.pro img:hover{
+    width:320px;
+    height: 320px;
+}
+img{
+    border-radius: 10px;
+}
+button{
+    background-color: green;
+    border-radius: 5px;
+    padding:7px;
+}
+button:hover{
+    background-color: white;
+}
+p{
+    font-size: 20px;
+}
+h2{
+    font-size:30px;
+}
